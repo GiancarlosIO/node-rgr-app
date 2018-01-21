@@ -11,7 +11,7 @@ module.exports = {
     filename: '[name].min.js',
   },
   devServer: {
-    publicPath: 'http://localhost:8080/client/dist/',
+    publicPath: '/client/dist/',
     stats: { colors: true },
     port: 4000,
     hot: true,
